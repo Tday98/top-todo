@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Projects</h2>
+        <div id="project-list">
+
+        </div>
+        <button id="add-project-btn">+ New Project</button>
+    </div>
+
+    <div id="project-form" style="display: none;">
+        <input type="text" id="project-name" placeholder="Project name">
+        <input type="text" id="project-description" placeholder="Description">
+        <button id="submit-project">Create</button>
+        <button id="cancel-project">Cancel</button>
+    </div>
+
+    <div class="main">
+        <h2 id="active-project-name">General</h2>
+        <div id="todo-list">
+
+        </div>
+        <button id="add-todo-btn">+ New Todo</button>
+    </div>
+</body>
+</html>
