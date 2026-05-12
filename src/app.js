@@ -1,6 +1,6 @@
 import { Project } from "./projects.js"
 
-class ProjectManager {
+export class ProjectManager {
     constructor() {
         this.projects = [];
         this.activeProject = null;

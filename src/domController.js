@@ -1,6 +1,6 @@
 import { projectManager } from "./app.js"
 
-class DomController {
+export class DomController {
     constructor(projectManager) {
         this.projectManager = projectManager;
 

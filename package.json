@@ -1,6 +1,31 @@
 {
-  "type": "module",
   "dependencies": {
     "date-fns": "^4.1.0"
-  }
+  },
+  "name": "top-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.7",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tday98/top-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tday98/top-todo/issues"
+  },
+  "homepage": "https://github.com/Tday98/top-todo#readme"
 }
