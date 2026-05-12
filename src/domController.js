@@ -49,7 +49,7 @@ class DomController {
 
 
             projectDiv.addEventListener('click', () => {
-                this.projectManager.setActiveProject(projectDiv.textContent);
+                this.projectManager.setActiveProject(project.name);
                 this.renderTodos();
             });
             
@@ -68,9 +68,9 @@ class DomController {
             todoDesc.textContent = todo.description;
 
             todoDiv.appendChild(todoDesc);
+            this.todoList.appendChild(todoDiv);
         });
-        
-        this.todoList.appendChild(todoDiv);
+    this.activeProjectName.textContent = this.projectManager.activeProject.name;  
     }
 
 }
